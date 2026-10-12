@@ -30,7 +30,7 @@ pipeline {
             steps {
                 sh '''
                     terraform version
-                    test -f provider.tf
+                    test -f providers.tf
                     test -f variables.tf
                     test -f vpc.tf
                     test -f outputs.tf
