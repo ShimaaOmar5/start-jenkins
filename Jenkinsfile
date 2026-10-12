@@ -16,7 +16,7 @@ pipeline {
         AWS_DEFAULT_REGION    = 'us-east-1'
         TF_IN_AUTOMATION      = 'true'
         TF_INPUT              = 'false'
-        TF_VAR_localstack_endpoint = 'http://floci:4566'
+        TF_VAR_floci_endpoint = 'http://floci:4566'
     }
 
     stages {
